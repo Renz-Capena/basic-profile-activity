@@ -203,7 +203,7 @@ iframe{
     /* border: 1px solid red; */
     /* width: 100%; */
     animation-name: rickWrapper;
-    animation-duration: 15s;
+    animation-duration: 30s;
     animation-iteration-count: infinite;
 }
 .rick_wrapper img{
@@ -214,6 +214,17 @@ iframe{
     animation-iteration-count: infinite;
     transition: 1s;
     cursor: pointer;
+}
+#rick_sentence{
+    border: 2px solid;
+    width: 100px;
+    padding: 1px 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: #ce70f6;
+    font-weight: bold;
+    transition: 0.5s;
+    transform: scale(0);
 }
 @keyframes rickWrapper{
     0%{
