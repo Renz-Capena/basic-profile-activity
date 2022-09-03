@@ -189,6 +189,76 @@ iframe{
     border-radius: 10px;
     margin: auto;
 }
+/* =========================rick_wrapper */
+.rick_container{
+    width: 100%;
+    overflow: hidden;
+    /* border: 1px solid; */
+    position: absolute;
+    z-index: 5;
+    bottom: 0;
+    position: fixed;
+}
+.rick_wrapper{
+    /* border: 1px solid red; */
+    /* width: 100%; */
+    animation-name: rickWrapper;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+.rick_wrapper img{
+    width: 30px;
+    animation-name: rickImg;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes rickWrapper{
+    0%{
+        margin-left: 0;
+    }
+    15%{
+        margin-left: 15%;
+    }
+    25%{
+        margin-left: 25%;
+    }
+    50%{
+        margin-left: 50%;
+    }
+    75%{
+        margin-left: 75%;
+    }
+    85%{
+        margin-left: 85%;
+    }
+    100%{
+        /* left: unset; */
+        margin-left: 100%;
+    }
+}
+@keyframes rickImg{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
