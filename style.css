@@ -1,0 +1,383 @@
+*{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+}
+.first_section_wrapper{
+    /* border: 1px solid green; */
+    padding: 10px;
+}
+.container_wrapper{
+    background: linear-gradient(to top left,#e0b5fb,#9900f7) ;
+    width: min(1200px, 100%);
+    margin: auto;
+    margin-top: 5vh;
+    text-align: center;
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+.img_bg_rick_wrapper{
+    position: relative;
+    /* border: 1px solid red; */
+    width: 100%;
+    z-index: 2;
+    overflow: hidden;
+    height: 231px;
+    margin: auto;
+    border-radius: 10px;
+}
+.rick_morty_img{
+    width: 100%;
+    /* height: 100%; */
+    margin-top: -100px;
+}
+/* ///////////////////////////////////////////////==================info_main_wrapper */
+.info_main_wrapper{
+    display: flex;
+}
+/* ////////////////////////////////////////////////profile pic wrapper */
+.profile_info_wrapper{
+    /* border: 1px solid; */
+    width: 436px;
+    background: rgba(255, 255, 255, 0.827);
+    margin-top: -70px;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+.profile_pic{
+    width: 140px;
+    border-radius: 50%;
+    border: 3px solid white;
+    transform: rotate(20deg);
+    z-index: 3;
+}
+.profile_pic_wrapper{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name_wrapper{
+    /* border: 1px solid; */
+    margin-left: 20px;
+    text-align: left;
+    line-height: 30px;
+    padding-top: 70px;
+}
+/*========================================== moto_in_life */
+.moto_in_life{
+    /* border:1px solid; */
+    width: min(300px,100%);
+    margin: auto;
+    margin-top: 30px;
+}
+.moto_in_life q{
+font-weight: bolder;
+}
+/* ==================================.information_list */
+.information_list{
+    /* border: 1px solid; */
+    text-align: left;
+    margin-top: 40px;
+    padding-left: 20px;
+}
+.information_list ul{
+    list-style: none;
+    font-size: 12px;
+    line-height: 25px;
+    color: rgb(74, 74, 74);
+}
+.information_list ul li{
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+}
+.information_list ul li img{
+    width: 20px;
+    margin-right: 20px;
+}
+/* ///////////////////////////////////////////about_wrapper */
+.about_wrapper{
+    /* border: 1px solid; */
+    border-radius: 10px;
+    width:730px;
+    /* height: 350px; */
+    /* right: 0; */
+    margin-left: auto;
+    margin-left: 10px;
+    /* margin-right: auto; */
+    margin-top: 10px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    background: rgba(255, 255, 255, 0.815);
+}
+/*========================================== about */
+.about{
+    /* border: 1px solid; */
+    padding: 20px;
+    text-align: left;;
+    width: 500px;
+}
+.about p:nth-child(1){
+    font-weight: bold;
+    margin-top: 10px;
+    /* border: 1px solid; */
+    margin-bottom: 30px;
+}
+.about p:nth-child(2){
+    line-height: 25px;
+    font-size: 13px;
+}
+/* =========================================knowledge */
+.knowledge{
+    /* border: 1px solid; */
+    width: 500px;
+    /* margin: 10px; */
+    /* margin-right: 50px; */
+    text-align: left;
+    padding: 20px;
+}
+.knowledge div{
+    background-color: #ce70f6;
+    border: 3px solid rgb(158, 3, 172);
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 50px 0px;
+    padding-left: 30px;
+    border-radius: 10px;
+    /* margin-right: 50px; */
+}
+.knowledge div label{
+    margin-bottom: 10px;
+    font-weight: lighter;
+    font-size: 14px;
+}
+.knowledge div input{
+    margin-bottom: 20px;
+    width: 200px;
+}
+.percent_text{
+    margin-left: 20px;
+}
+/* //////////////////////////////////////////iframe */
+.inrested_section_wrapper{
+    /* border: 1px solid red; */
+    text-align: left;
+    padding-top: 40px;
+}
+.inrested_section_wrapper p{
+    font-weight: bolder;
+    font-size: 13px;
+    color: #310842;
+    margin-left: 25px;
+}
+
+.iframe_wrapper{
+    /* border: 3px solid; */
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    margin-top: 20px;
+    display: grid;
+    grid-auto-flow: column;
+}
+iframe{
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+
+
+/*====================== RESPONSIVE */
+@media (max-width:1000px){
+    .first_section_wrapper{
+        /* border: 1px solid green; */
+        padding: 10px;
+    }
+    .container_wrapper{
+        background: linear-gradient(to top left,#e0b5fb,#9900f7) ;
+        width: min(1200px, 100%);
+        margin: auto;
+        margin-top: 5vh;
+        text-align: center;
+        padding-bottom: 30px;
+        border-radius: 10px;
+    }
+    .img_bg_rick_wrapper{
+        position: relative;
+        /* border: 1px solid red; */
+        width: 100%;
+        z-index: 2;
+        overflow: hidden;
+        height: 231px;
+        margin: auto;
+        border-radius: 10px;
+    }
+    .rick_morty_img{
+        width: 100%;
+        /* height: 100%; */
+        margin-top: 0px;
+        /* border: 1px solid; */
+        transform: scale(200%);
+    }
+    /* ///////////////////////////////////////////////==================info_main_wrapper */
+    .info_main_wrapper{
+        display: block;
+        /* text-align: center; */
+    }
+    /* ////////////////////////////////////////////////profile pic wrapper */
+    .profile_info_wrapper{
+        /* border: 1px solid; */
+        width: 100%;
+        background: rgba(255, 255, 255, 0.827);
+        margin-top: -70px;
+        border-radius: 10px;
+        padding-bottom: 30px;
+    }
+    .profile_pic{
+        width: 140px;
+        border-radius: 50%;
+        border: 3px solid white;
+        transform: rotate(20deg);
+        z-index: 3;
+    }
+    .profile_pic_wrapper{
+        /* border: 1px solid red; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 10px;
+    }
+    .name_wrapper{
+        /* border: 1px solid; */
+        margin-left: 20px;
+        text-align: left;
+        line-height: 30px;
+        padding-top: 70px;
+    }
+    /*========================================== moto_in_life */
+    .moto_in_life{
+        /* border:1px solid; */
+        width: 80%;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .moto_in_life q{
+    font-weight: bolder;
+    font-size: clamp(14px,3vw,20px);
+    }
+    /* ==================================.information_list */
+    .information_list{
+        /* border: 1px solid; */
+        text-align: left;
+        margin-top: 40px;
+        padding-left: 20px;
+    }
+    .information_list ul{
+        list-style: none;
+        font-size: 12px;
+        line-height: 25px;
+        color: rgb(74, 74, 74);
+    }
+    .information_list ul li{
+        /* border: 1px solid; */
+        display: flex;
+        align-items: center;
+    }
+    .information_list ul li img{
+        width: 20px;
+        margin-right: 20px;
+    }
+    /* ///////////////////////////////////////////about_wrapper */
+    .about_wrapper{
+        /* border: 1px solid; */
+        border-radius: 10px;
+        width:100%;
+        margin-left: auto;
+        margin-left: 0px;
+        margin-top: 10px;
+        display: block;
+        justify-content: space-around;
+        background: rgba(255, 255, 255, 0.815);
+        padding-bottom: 20px;
+    }
+    /*========================================== about */
+    .about{
+        margin: auto;
+        /* border: 1px solid; */
+        padding: 10px 0px;
+        text-align: left;;
+        width: 90%;
+    }
+    .about p:nth-child(1){
+        font-weight: bold;
+        margin-top: 10px;
+        /* border: 1px solid; */
+        margin-bottom: 30px;
+    }
+    .about p:nth-child(2){
+        line-height: 25px;
+        font-size: 13px;
+    }
+    /* =========================================knowledge */
+    .knowledge{
+        margin: auto;
+        /* border: 1px solid; */
+        width: 90%;
+        text-align: left;
+        padding: 0px;
+    }
+    .knowledge div{
+        background-color: #ce70f6;
+        border: 3px solid rgb(158, 3, 172);
+        width: 80%;
+        margin: auto;
+        margin-top: 10px;
+        padding: 50px 0px;
+        padding-left: 30px;
+        border-radius: 10px;
+        /* margin-right: 50px; */
+    }
+    .knowledge div label{
+        margin-bottom: 10px;
+        font-weight: lighter;
+        font-size: clamp(11px,2vw,14px);
+    }
+    .knowledge div input{
+        margin-bottom: 20px;
+        width: 60%;
+        /* border: 1px solid; */
+    }
+    .percent_text{
+        font-size: clamp(11px,4vw,20px);
+        /* margin-left: 30%; */
+        float: right;
+        margin-left: 0px;
+        margin-right: 15%;
+    }
+    /* //////////////////////////////////////////iframe */
+    .inrested_section_wrapper{
+        /* border: 1px solid red; */
+        text-align: left;
+        padding-top: 40px;
+    }
+    .inrested_section_wrapper p{
+        font-weight: bolder;
+        font-size: 13px;
+        margin-left: 5px;
+    }
+    .iframe_wrapper{
+        grid-auto-flow: row;
+        gap: 30px;
+    }
+    iframe{
+        width: 100%;
+        height: 350px;
+        border-radius: 10px;
+        margin: auto;
+    }
+}
