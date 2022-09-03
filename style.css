@@ -207,10 +207,13 @@ iframe{
     animation-iteration-count: infinite;
 }
 .rick_wrapper img{
+    /* border: 1px solid; */
     width: 30px;
     animation-name: rickImg;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+    transition: 1s;
+    cursor: pointer;
 }
 @keyframes rickWrapper{
     0%{
@@ -272,7 +275,7 @@ iframe{
         background: linear-gradient(to top left,#e0b5fb,#9900f7) ;
         width: min(1200px, 100%);
         margin: auto;
-        margin-top: 5vh;
+        margin-top: 0px;
         text-align: center;
         padding-bottom: 30px;
         border-radius: 10px;
