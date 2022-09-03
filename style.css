@@ -151,8 +151,10 @@ font-weight: bolder;
 }
 .knowledge div label{
     margin-bottom: 10px;
-    font-weight: lighter;
+    font-weight: bold;
     font-size: 14px;
+    color: black;
+    letter-spacing: 1.5px;
 }
 .knowledge div input{
     margin-bottom: 20px;
@@ -428,7 +430,7 @@ iframe{
     }
     .knowledge div label{
         margin-bottom: 10px;
-        font-weight: lighter;
+        font-weight: bolder;
         font-size: clamp(11px,2vw,14px);
     }
     .knowledge div input{
